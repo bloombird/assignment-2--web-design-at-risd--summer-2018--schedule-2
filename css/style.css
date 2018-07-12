@@ -1,0 +1,52 @@
+
+body{
+   height: 50vw;
+   width: 250vw;
+   background-color: rgba(184, 236, 230, 0.65);
+   color: white;
+}
+
+.horizontal-scroll-wrapper {
+   width: 50vw;
+   transform-origin: right top;
+   transform: rotate(-90deg) translateY(-50vw);
+}
+
+.horizontal-scroll-wrapper > div {
+   width: 50vw;
+   height: 50vw;
+   transform: rotate(90deg);
+}
+
+.album img{
+   width: 90%;
+   margin: 120px 60px;
+   min-width: 500px;
+   box-shadow: 3px 3px 6px rgba(60, 145, 135, 0.3);
+   z-index: 5;
+   position: absolute;
+}
+
+.disc{
+   width: 30vw;
+   height: 30vw;
+   border-radius: 50%;
+   background: linear-gradient(90deg, rgba(184,236,230,1) 0%, rgba(178,227,198,1) 100%);
+   position: absolute;
+   top:180px;
+   left: 50vw;
+   z-index: 1;
+}
+
+
+
+.box{
+   width: 300px;
+   height: 50px;
+   position:fixed;
+   /* margin-left: 180px; */
+   margin-top: 180px;
+   background-color: pink;
+   text-align: center;
+   z-index: 2;
+}
