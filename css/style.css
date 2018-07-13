@@ -32,6 +32,9 @@ header {
 .trigger-4{width: 10px;height: 10px; background-color: #fff; margin-left:900px;z-index: 10; opacity: 0;}
 .trigger-5{width: 10px;height: 10px; background-color: #fff; margin-left:140px;z-index: 10; opacity: 0;}
 .trigger-6{width: 10px;height: 10px; background-color: #fff; margin-left:450px;z-index: 10; opacity: 0;}
+.trigger-7{width: 10px;height: 10px; background-color: #fff; margin-left:-400px;z-index: 10; opacity: 0;}
+.trigger-8{width: 10px;height: 10px; background-color: #fff; margin-left:-200px;z-index: 10; opacity: 0;}
+.trigger-9{width: 10px;height: 10px; background-color: #fff; margin-left:-50px;z-index: 10; opacity: 0;}
 
 
 section {
@@ -144,13 +147,19 @@ section {
 }
 
 .reviews-4 {
-   top: 19vh;
-   left: 10px;
+   top: -30vh;
+   left: -310px;
 }
 
 .img2{
    width: 30vh;
    position: relative;
-   top: 10vh;
-   left: -240px;
+   top: 50vh;
+   left: -140px;
+}
+.img3{
+   width: 30vh;
+   position: relative;
+   top: 30vh;
+   left: -180px;
 }
