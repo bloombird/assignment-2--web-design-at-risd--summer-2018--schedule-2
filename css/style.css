@@ -171,3 +171,18 @@ section {
    top:-30vh;
    left: 550px;
 }
+
+.allmusic{
+   position: relative;
+   width: 800px;
+   font-size: 16px;;
+}
+.allmusic > div{
+   margin-bottom: 10px;
+}
+
+.order{
+   margin-top: 15px;
+   margin-bottom: 15px;
+   text-align: center;
+}
