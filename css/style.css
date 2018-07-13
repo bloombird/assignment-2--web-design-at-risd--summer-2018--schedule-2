@@ -1,7 +1,13 @@
 html,
-body {
-  margin: 0;
-  height: 100%
+body{
+   margin: 0;
+   height: 100%;
+   font-family: 'Lora', sans-serif;
+   font-size: 20px;
+   line-height: 1.5;
+}
+div{
+   color: #227f74;
 }
 
 ul,li{
@@ -21,7 +27,9 @@ header {
 }
 
 .trigger-1{width: 10px;height: 10px; background-color: #fff; position: absolute; left:1200px;z-index: 10; opacity: 0;}
-.trigger-2{width: 10px;height: 10px; background-color: #fff; margin-left:0px;z-index: 10; opacity: 0;}
+.trigger-2{width: 10px;height: 10px; background-color: #fff; margin-left:30px;z-index: 10; opacity: 0;}
+.trigger-3{width: 10px;height: 10px; background-color: #fff; margin-left:200px;z-index: 10; opacity: 0;}
+.trigger-4{width: 10px;height: 10px; background-color: #fff; margin-left:480px;z-index: 10; opacity: 0;}
 
 
 section {
@@ -38,7 +46,6 @@ section {
   overflow:hidden;
   height: 100vh;
   background-color: rgba(184, 236, 230, 0.35);
-  color: white;
 }
 
 
@@ -65,7 +72,7 @@ section {
 .content{
    position: relative;
    left: 80px;
-   line-height: 1.5;
+
    z-index: 5;
 }
 .name > section{
@@ -84,8 +91,9 @@ section {
    font-size: 16px;
    opacity: 0.5;
    vertical-align: middle;
-   line-height: 43px;
+   line-height: 27px;
    margin-right: 10px;
+   margin-top: 8px;
 }
 .time{
    clear: both;
@@ -99,8 +107,18 @@ section {
 
 .reviews-1{
    position: absolute;
-   width: 200px;
-   height: 200px;
-   top: 30px;
-   right: -200px;
+   width: 350px;
+   bottom: 80px;
+   right: -1100px;
+}
+.strong{
+   font-weight: 700;
+   font-size: 30px;
+}
+
+#section-1 img{
+   position: absolute;
+   right: -1400px;
+   top: 120px;
+   width: 400px;
 }
