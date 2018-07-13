@@ -20,6 +20,10 @@ header {
   left: 10px;
 }
 
+.trigger-1{width: 10px;height: 10px; background-color: #fff; position: absolute; left:1200px;z-index: 10; opacity: 0;}
+.trigger-2{width: 10px;height: 10px; background-color: #fff; margin-left:-370px;z-index: 10; opacity: 0;}
+
+
 section {
   display: flex;
   justify-content: center;
@@ -53,14 +57,13 @@ section {
    position: absolute;
    left: 600px;
 }
-.trigger-1{width: 10px;height: 10px; background-color: #fff; position: absolute; left:1200px;z-index: 10; opacity: 0;}
 
-#section-1{
+#section-2{
    border: 1px solid red;
 }
 .content{
    position: relative;
-   left: -400px;
+   left: -380px;
    line-height: 1.5;
 }
 .name > section{
