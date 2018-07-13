@@ -163,3 +163,10 @@ section {
    top: 30vh;
    left: -180px;
 }
+
+.reviews-5{
+   position: relative;
+   width: 800px;
+   top:-30vh;
+   left: 450px;
+}
