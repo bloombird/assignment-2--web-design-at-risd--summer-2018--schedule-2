@@ -21,12 +21,12 @@ header {
 }
 
 .trigger-1{width: 10px;height: 10px; background-color: #fff; position: absolute; left:1200px;z-index: 10; opacity: 0;}
-.trigger-2{width: 10px;height: 10px; background-color: #fff; margin-left:-370px;z-index: 10; opacity: 0;}
+.trigger-2{width: 10px;height: 10px; background-color: #fff; margin-left:0px;z-index: 10; opacity: 0;}
 
 
 section {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   color: #EFEFEF;
 }
@@ -46,6 +46,7 @@ section {
    width: 600px;
    box-shadow: 3px 3px 6px rgba(60, 145, 135, 0.3);
    z-index: 5;
+   margin: auto;
 }
 
 .disc{
@@ -63,8 +64,9 @@ section {
 }
 .content{
    position: relative;
-   left: -380px;
+   left: 80px;
    line-height: 1.5;
+   z-index: 5;
 }
 .name > section{
    display: block;
@@ -93,4 +95,12 @@ section {
 }
 .performer{
    margin-left: 30px;
+}
+
+.reviews-1{
+   position: absolute;
+   width: 200px;
+   height: 200px;
+   top: 30px;
+   right: -200px;
 }
