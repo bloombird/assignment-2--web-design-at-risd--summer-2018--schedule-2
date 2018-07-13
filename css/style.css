@@ -4,17 +4,8 @@ body {
   height: 100%
 }
 
-a {
-  color: white;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-a.active {
-  color: #000;
-  text-decoration: underline;
+ul,li{
+   margin-bottom: 80px;
 }
 
 h1,
@@ -33,18 +24,16 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   color: #EFEFEF;
 }
 
 .full-screen {
   display: flex;
-  width:500vw;
-  max-width:calc(1920px *3 );
+  width: calc(1920px *3 );
   max-height:100vh;
   overflow:hidden;
   height: 100vh;
-  background-color: rgba(184, 236, 230, 0.65);
+  background-color: rgba(184, 236, 230, 0.35);
   color: white;
 }
 
@@ -56,23 +45,49 @@ section {
 }
 
 .disc{
-   width: 60vh;
-   height: 60vh;
+   width: 500px;
+   height: 500px;
    border-radius: 50%;
-   background: linear-gradient(90deg, rgba(184,236,230,1) 0%, rgba(178,227,198,1) 100%);
+   background: linear-gradient(90deg, rgba(184,236,230,1) 0%, rgba(178,227,152,1) 100%);
    z-index: 1;
    position: absolute;
    left: 600px;
 }
-.trigger-1{width: 10px;height: 10px; background-color: #fff; position: absolute; left:1200px;z-index: 10;}
+.trigger-1{width: 10px;height: 10px; background-color: #fff; position: absolute; left:1200px;z-index: 10; opacity: 0;}
 
-.box{
-   width: 300px;
-   height: 50px;
-   position:fixed;
-   /* margin-left: 180px; */
-   margin-top: 180px;
-   background-color: pink;
-   text-align: center;
-   z-index: 2;
+#section-1{
+   border: 1px solid red;
+}
+.content{
+   position: relative;
+   left: -400px;
+   line-height: 1.5;
+}
+.name > section{
+   display: block;
+   font-family: 'Lora', sans-serif;
+   font-weight: 400;
+   color: #227f74;
+   float: left;
+}
+.name{
+   padding-bottom: 30px;
+}
+
+.time, .performer{
+   float:left;
+   font-size: 16px;
+   opacity: 0.5;
+   vertical-align: middle;
+   line-height: 30px;
+   margin-right: 10px;
+}
+.time{
+   clear: both;
+}
+.songname{
+   font-size: 20px;
+}
+.performer{
+   margin-left: 30px;
 }
