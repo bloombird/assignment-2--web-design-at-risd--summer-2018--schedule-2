@@ -23,7 +23,7 @@ p {
   padding: 0;
 }
 
-body{
+header {
   position: fixed;
   top: 10px;
   left: 10px;
