@@ -174,8 +174,10 @@ section {
 
 .allmusic{
    position: relative;
-   width: 800px;
-   font-size: 16px;;
+   width: 700px;
+   font-size: 16px;
+   float: left;
+   margin-right: 100px;
 }
 .allmusic > div{
    margin-bottom: 10px;
@@ -188,12 +190,9 @@ section {
 }
 
 .allmusic2{
-   position: absolute;
-   width: 800px;
+   width: 700px;
    font-size: 16px;
-   right: -6500px;
-   top: 8vh;   width: 800px;
-   font-size: 16px;
+   float: left;
 }
 
 .ecm{
