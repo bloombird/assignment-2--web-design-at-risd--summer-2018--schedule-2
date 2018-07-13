@@ -110,4 +110,16 @@ $(document).ready(function(){
     //.addIndicators()
     .addTo(controller);
 
+    TweenMax.set('.reviews-5', {x:-40, opacity:0});
+    var bodyToStart9 = TweenMax.to('.reviews-5', 1, {x: 0, opacity: 1, ease: Linear.easeNone});
+
+    var bodyToStartScene8 = new ScrollMagic.Scene({
+        triggerElement:'.trigger-10',
+        triggerHook: 0.5,
+    })
+
+    .setTween(bodyToStart9)
+    //.addIndicators()
+    .addTo(controller);
+
 });
