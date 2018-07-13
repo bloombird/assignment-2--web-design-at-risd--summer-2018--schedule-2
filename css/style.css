@@ -47,7 +47,7 @@ section {
 
 .full-screen {
   display: flex;
-  width: calc(1920px *5 );
+  width: calc(1920px * 5 );
   max-height:100vh;
   overflow:hidden;
   height: 100vh;
@@ -185,4 +185,24 @@ section {
    margin-top: 15px;
    margin-bottom: 15px;
    text-align: center;
+}
+
+.allmusic2{
+   position: absolute;
+   width: 800px;
+   font-size: 16px;
+   right: -6500px;
+   top: 8vh;   width: 800px;
+   font-size: 16px;
+}
+
+.ecm{
+   margin-top: 30px;
+   text-align: right;
+}
+
+.section5div{
+   text-align: center;
+   font-size: 30px;
+   margin: auto;
 }
