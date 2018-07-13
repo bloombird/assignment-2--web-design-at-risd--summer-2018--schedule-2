@@ -1,13 +1,13 @@
 $(document).ready(function(){
     TweenMax.set('.disc', {x: 0, opacity:0.2});
-    var bodyToStart = TweenMax.to('.disc', 1, {x: 350, opacity: 1, ease: Linear.easeNone});
+    var bodyToStart = TweenMax.to('.disc', 1, {x: 550, opacity: 1, ease: Linear.easeNone});
 
     var controller = new ScrollMagic.Controller({vertical: false});
 
     var bodyToStartScene = new ScrollMagic.Scene({
         triggerElement:'.trigger-1',
         triggerHook: 0.5,
-        duration: 350
+        duration: 550
     })
 
     .setTween(bodyToStart)
